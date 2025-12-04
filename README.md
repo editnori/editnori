@@ -20,12 +20,11 @@
 |---------|-------------|
 | [nota](https://github.com/editnori/nota) | Local clinical note annotation tool |
 | [SmartRust](https://github.com/editnori/SmartRust) | Rust FST parser for pharmaceutical SIG instructions |
-| [Ctakes_USD](https://github.com/editnori/Ctakes_USD) | Apache cTAKES NLP wrapper for clinical text |
 | [toneguard](https://github.com/editnori/toneguard) | Clinical communication tone analysis |
 | [GRM2025](https://github.com/editnori/GRM2025) | Genomic resistance mapping for antimicrobial patterns |
-| [Hekmatica](https://github.com/editnori/Hekmatica) | Multi-agent deep research system with BAML and LangGraph |
 | [smartsig-webtool](https://github.com/editnori/smartsig-webtool) | Clinical QA webtool |
 | [PythonMetaMap](https://github.com/editnori/PythonMetaMap) | Python wrapper for MetaMap |
+| [voice-rx-drug](https://github.com/editnori/voice-rx-drug) | Multi-agent AI for prescription processing with RxNav |
 
 ---
 
