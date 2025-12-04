@@ -7,12 +7,21 @@
 [![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://github.com/editnori)
 [![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://github.com/editnori)
 [![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/editnori)
+[![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white)](https://github.com/editnori)
 [![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)](https://github.com/editnori)
 [![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)](https://github.com/editnori)
 
 ---
 
-<img src="https://github-profile-trophy.vercel.app/?username=editnori&theme=flat&no-frame=true&margin-w=10" alt="trophies"/>
+### Projects
+
+| Project | Description |
+|---------|-------------|
+| **NOTA** | Natural language orchestration for clinical workflows |
+| **SIG Parser** | Rust FST parser for pharmaceutical prescription instructions |
+| **cTAKES Wrappers** | Integration layer for Apache cTAKES NLP pipeline |
+| **Tone Guard** | Clinical communication tone analysis |
+| **Genomic Resistance Mapping** | Antimicrobial resistance pattern detection from genomic data |
 
 ---
 
