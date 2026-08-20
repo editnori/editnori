@@ -6,8 +6,8 @@
 </p>
 
 <p align="center">
-  <a href="https://ctakesusd.dev/clinical-basics/">Clinical basics</a> ·
-  <a href="https://ctakesusd.dev/batch-1/">Batch 1</a> ·
+  <a href="https://ctakesusd.dev/clinical-basics/">Clinical basics</a>&nbsp;&nbsp;
+  <a href="https://ctakesusd.dev/batch-1/">Batch 1</a>&nbsp;&nbsp;
   <a href="https://codeberg.org/editnori/Ctakes_USD">Source</a>
 </p>
 

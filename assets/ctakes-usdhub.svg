@@ -35,7 +35,7 @@
   <path d="M620 88V390" stroke="var(--line)" />
 
   <text class="ui label" x="36" y="42" fill="var(--ink)">cTAKES USDHUB</text>
-  <text class="ui label" x="964" y="42" text-anchor="end" fill="var(--blue-text)">CLINICAL NLP · RELEASE 2.1.19</text>
+  <text class="ui label" x="964" y="42" text-anchor="end" fill="var(--blue-text)">CLINICAL NLP RELEASE 2.1.19</text>
 
   <g transform="translate(40 104)">
     <text class="ui label" x="0" y="0" fill="var(--muted)">ONE SYNTHETIC NOTE</text>
@@ -48,8 +48,10 @@
     <text class="ui body" x="112" y="205" fill="var(--ink)">“No fever.”</text>
     <path d="M18 226H518" stroke="var(--line)" />
     <text class="ui label" x="18" y="258" fill="var(--muted)">ROW</text>
-    <text class="ui body" x="112" y="259" fill="var(--ink)">fever · 85–90 · DEMO-C002 · </text>
-    <text class="ui body" x="384" y="259" fill="var(--coral-text)">negated</text>
+    <text class="ui body" x="112" y="259" fill="var(--ink)">fever</text>
+    <text class="ui body" x="172" y="259" fill="var(--ink)">span 85–90</text>
+    <text class="ui body" x="290" y="259" fill="var(--ink)">DEMO-C002</text>
+    <text class="ui body" x="410" y="259" fill="var(--coral-text)">negated</text>
   </g>
 
   <text class="ui note" x="40" y="392" fill="var(--blue-text)">structure → dictionary → WSD → Drug NER → context → SQLite + CSV</text>

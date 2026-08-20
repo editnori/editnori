@@ -48,7 +48,9 @@
     <text class="ui body" x="154" y="265" fill="var(--ink)">“No fever.”</text>
     <path d="M18 290H522" stroke="var(--line)" />
     <text class="ui label" x="18" y="328" fill="var(--muted)">ROW</text>
-    <text class="ui body" x="154" y="329" fill="var(--ink)">fever · 85–90 · DEMO-C002</text>
+    <text class="ui body" x="154" y="329" fill="var(--ink)">fever</text>
+    <text class="ui body" x="220" y="329" fill="var(--ink)">span 85–90</text>
+    <text class="ui body" x="362" y="329" fill="var(--ink)">DEMO-C002</text>
     <text class="ui body" x="154" y="364" fill="var(--coral-text)">assertion: negated</text>
   </g>
 
