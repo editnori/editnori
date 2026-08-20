@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="830" viewBox="0 0 600 830" role="img" aria-labelledby="title desc">
+  <title id="title">cTAKES USDHUB clinical NLP</title>
+  <desc id="desc">The fictional phrase No fever stays attached to characters 85 to 90 while cTAKES adds candidate DEMO-C002 and a negated assertion. Batch 1 completed 1,708,157 notes and produced 142,891,564 concept rows plus 11,004,425 medication candidate rows.</desc>
+  <style>
+    svg {
+      --paper: #F4F4F2;
+      --sheet: #FFFFFF;
+      --ink: #161617;
+      --blue-text: #3155B4;
+      --coral-text: #B03E18;
+      --muted: #5E5E62;
+      --line: #DEDEDA;
+    }
+    @media (prefers-color-scheme: dark) {
+      svg {
+        --paper: #111113;
+        --sheet: #1B1B1F;
+        --ink: #F2F2F0;
+        --blue-text: #8AA5FF;
+        --coral-text: #FFA485;
+        --muted: #B8B8BC;
+        --line: #36363A;
+      }
+    }
+    .ui { font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; }
+    .label { font-size: 24px; font-weight: 600; letter-spacing: 1.4px; }
+    .display { font-size: 42px; font-weight: 600; letter-spacing: -0.8px; }
+    .body { font-size: 24px; font-weight: 400; }
+    .note { font-size: 22px; font-weight: 400; }
+    .stat { font-size: 34px; font-weight: 600; letter-spacing: -0.4px; font-variant-numeric: tabular-nums; }
+  </style>
+
+  <rect x="1" y="1" width="598" height="828" rx="14" fill="var(--paper)" />
+  <path d="M30 74H570" stroke="var(--line)" />
+
+  <text class="ui label" x="30" y="48" fill="var(--ink)">cTAKES USDHUB</text>
+  <text class="ui label" x="570" y="48" text-anchor="end" fill="var(--blue-text)">CLINICAL NLP</text>
+
+  <g transform="translate(30 118)">
+    <text class="ui label" x="0" y="0" fill="var(--muted)">ONE SYNTHETIC NOTE</text>
+    <text class="ui display" x="0" y="64" fill="var(--blue-text)">Clinical text becomes</text>
+    <text class="ui display" x="0" y="114" fill="var(--ink)">reviewable rows.</text>
+    <text class="ui body" x="0" y="159" fill="var(--muted)">cTAKES keeps the source words and</text>
+    <text class="ui body" x="0" y="194" fill="var(--muted)">adds coded fields around them.</text>
+
+    <rect x="0" y="226" width="540" height="154" rx="12" fill="var(--sheet)" />
+    <text class="ui label" x="18" y="264" fill="var(--muted)">NOTE</text>
+    <text class="ui body" x="154" y="265" fill="var(--ink)">“No fever.”</text>
+    <path d="M18 290H522" stroke="var(--line)" />
+    <text class="ui label" x="18" y="328" fill="var(--muted)">ROW</text>
+    <text class="ui body" x="154" y="329" fill="var(--ink)">fever · 85–90 · DEMO-C002</text>
+    <text class="ui body" x="154" y="364" fill="var(--coral-text)">assertion: negated</text>
+  </g>
+
+  <path d="M30 530H570" stroke="var(--line)" />
+
+  <g transform="translate(30 575)">
+    <text class="ui label" x="0" y="0" fill="var(--blue-text)">BATCH 1</text>
+    <text class="ui stat" x="0" y="55" fill="var(--blue-text)">1,708,157 notes</text>
+    <text class="ui body" x="0" y="90" fill="var(--muted)">completed in 9 hours and 47 minutes</text>
+
+    <path d="M0 120H540" stroke="var(--line)" />
+    <text class="ui stat" x="0" y="171" fill="var(--ink)">142,891,564</text>
+    <text class="ui note" x="246" y="171" fill="var(--muted)">concept rows</text>
+
+    <text class="ui stat" x="0" y="230" fill="var(--ink)">11,004,425</text>
+    <text class="ui note" x="224" y="230" fill="var(--muted)">medication candidates</text>
+
+  </g>
+</svg>

@@ -1,54 +1,22 @@
 <p align="center">
   <picture>
-    <source media="(max-width: 600px)" srcset="./assets/editnori-profile-mobile.svg" />
-    <img src="./assets/editnori-profile.svg" width="100%" alt="Editnori by Layth Qassem. Active Chrome tab audio becomes live English captions because Moonshine processes the stream inside the browser, so the audio and transcript text stay there." />
+    <source media="(max-width: 600px)" srcset="./assets/ctakes-usdhub-mobile.svg" />
+    <img src="./assets/ctakes-usdhub.svg" width="100%" alt="cTAKES USDHUB clinical NLP. In the fictional note, No fever becomes a reviewable concept row with span 85 to 90, fictional candidate DEMO-C002, and assertion negated because cTAKES keeps the source words and adds coded fields around them. Batch 1 completed 1,708,157 notes." />
   </picture>
 </p>
 
-## Selected work
+<p align="center">
+  <a href="https://ctakesusd.dev/clinical-basics/">Clinical basics</a> ·
+  <a href="https://ctakesusd.dev/batch-1/">Batch 1</a> ·
+  <a href="https://codeberg.org/editnori/Ctakes_USD">Source</a>
+</p>
 
-<table>
-  <tr>
-    <td>
-      <strong><a href="https://github.com/editnori/local-subtitles">Local Subtitles</a></strong><br />
-      Turns audio from the active Chrome tab into live English captions with local streaming speech recognition.<br />
-      <sub>JavaScript · WebAssembly · Chrome MV3</sub>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <strong><a href="https://github.com/editnori/psych-intake-brief">Psych Intake Brief</a></strong><br />
-      Turns local documents into a structured psychiatric-intake brief with per-section evidence ranking and citations.<br />
-      <sub>TypeScript · Rust · local document processing</sub>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <strong><a href="https://github.com/editnori/nota">Nota</a></strong><br />
-      Keeps clinical-note annotation, review, formatting, and shareable sessions on the desktop.<br />
-      <sub>TypeScript · Tauri · local persistence</sub>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <strong><a href="https://github.com/editnori/toneguard">ToneGuard</a></strong><br />
-      Returns writing lint, dependency flow, call graphs, and control-flow artifacts for code review.<br />
-      <sub>Rust · VS Code · static analysis</sub>
-    </td>
-  </tr>
-</table>
+## Clinical NLP with the source attached
 
-## Working rules
+In the fictional fixture, `No fever` stays attached to characters 85–90 while cTAKES adds fictional candidate `DEMO-C002` and assertion `negated`. The row opens back to those exact words, so a reviewer can inspect what the extractor saw. It does not rewrite the note or establish that the patient has fever.
 
-- Keep processing on the device when the workflow supports it.
-- Put the evidence, source, or constraint beside the result it qualifies.
-- Show the current state, the failed path, and the next action without hiding them behind polish.
+The default recipe structures sections, sentences, and tokens, then matches spans to dictionary candidates. Word-sense disambiguation (WSD) is the step that ranks several meanings attached to the same span while keeping every candidate. Drug named-entity recognition (Drug NER) is the step that extracts medication dose, route, frequency, and duration. Context follows, then writers return the results. WSD remains clinically `not-evaluated`.
 
-<details>
-  <summary><strong>More public work</strong></summary>
-  <br />
-  <a href="https://github.com/editnori/codex-rolling-auth">Codex Rolling Auth</a> ·
-  <a href="https://github.com/editnori/PythonMetaMap">PythonMetaMap</a> ·
-  <a href="https://github.com/editnori/GRM2025">GRM2025</a> ·
-  <a href="https://github.com/editnori/WinMux">WinMux</a>
-</details>
+After the manifest is complete, the sanity report passes, and both CSVs match their SQLite views, the routine handoff is exactly `concepts.csv` and `drugs.csv`. SQLite, receipts, manifests, and logs stay local for review and recovery.
+
+[Batch 1](https://ctakesusd.dev/batch-1/) processed 1,708,157 notes in 9 hours and 47 minutes. The 1,708,157 count measures input notes, while 142,891,564 concept rows and 11,004,425 medication candidate rows measure separate output tables; the row tables overlap by source note and do not partition the input count or each other. These are extraction inventories, not validated phenotypes or a clinical-accuracy result.
