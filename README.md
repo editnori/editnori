@@ -1,33 +1,54 @@
-<div align="center">
+<p align="center">
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/editnori-profile-mobile.svg" />
+    <img src="./assets/editnori-profile.svg" width="100%" alt="Editnori by Layth Qassem. Active Chrome tab audio becomes live English captions because Moonshine processes the stream inside the browser, so the audio and transcript text stay there." />
+  </picture>
+</p>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=58A6FF&center=true&vCenter=true&width=435&lines=Clinical+Informatics;Healthcare+NLP;Pharmaceutical+Systems)](https://git.io/typing-svg)
+## Selected work
 
----
+<table>
+  <tr>
+    <td>
+      <strong><a href="https://github.com/editnori/local-subtitles">Local Subtitles</a></strong><br />
+      Turns audio from the active Chrome tab into live English captions with local streaming speech recognition.<br />
+      <sub>JavaScript · WebAssembly · Chrome MV3</sub>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong><a href="https://github.com/editnori/psych-intake-brief">Psych Intake Brief</a></strong><br />
+      Turns local documents into a structured psychiatric-intake brief with per-section evidence ranking and citations.<br />
+      <sub>TypeScript · Rust · local document processing</sub>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong><a href="https://github.com/editnori/nota">Nota</a></strong><br />
+      Keeps clinical-note annotation, review, formatting, and shareable sessions on the desktop.<br />
+      <sub>TypeScript · Tauri · local persistence</sub>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong><a href="https://github.com/editnori/toneguard">ToneGuard</a></strong><br />
+      Returns writing lint, dependency flow, call graphs, and control-flow artifacts for code review.<br />
+      <sub>Rust · VS Code · static analysis</sub>
+    </td>
+  </tr>
+</table>
 
-[![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://github.com/editnori)
-[![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white)](https://github.com/editnori)
-[![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)](https://github.com/editnori)
-[![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)](https://github.com/editnori)
-[![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)](https://github.com/editnori)
-[![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)](https://github.com/editnori)
-[![Bun](https://img.shields.io/badge/-Bun-000000?style=flat-square&logo=bun&logoColor=white)](https://github.com/editnori)
+## Working rules
 
----
+- Keep processing on the device when the workflow supports it.
+- Put the evidence, source, or constraint beside the result it qualifies.
+- Show the current state, the failed path, and the next action without hiding them behind polish.
 
-### Projects
-
-| Project | Description |
-|---------|-------------|
-| [nota](https://github.com/editnori/nota) | Local clinical note annotation tool |
-| [SmartRust](https://github.com/editnori/SmartRust) | Rust FST parser for pharmaceutical SIG instructions |
-| [toneguard](https://github.com/editnori/toneguard) | Clinical communication tone analysis |
-| [GRM2025](https://github.com/editnori/GRM2025) | Genomic resistance mapping for antimicrobial patterns |
-| [smartsig-webtool](https://github.com/editnori/smartsig-webtool) | Clinical QA webtool |
-| [PythonMetaMap](https://github.com/editnori/PythonMetaMap) | Python wrapper for MetaMap |
-| [voice-rx-drug](https://github.com/editnori/voice-rx-drug) | Multi-agent AI for prescription processing with RxNav |
-
----
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
-
-</div>
+<details>
+  <summary><strong>More public work</strong></summary>
+  <br />
+  <a href="https://github.com/editnori/codex-rolling-auth">Codex Rolling Auth</a> ·
+  <a href="https://github.com/editnori/PythonMetaMap">PythonMetaMap</a> ·
+  <a href="https://github.com/editnori/GRM2025">GRM2025</a> ·
+  <a href="https://github.com/editnori/WinMux">WinMux</a>
+</details>
