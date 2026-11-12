@@ -10,7 +10,9 @@
   <a href="https://ctakesusd.dev/batch-1/">Batch 1</a>&nbsp;&nbsp;
   <a href="https://codeberg.org/editnori/Ctakes_USD">Source</a>
 </p>
+
 [![GitHub Commits Badge](https://ghcommits.com/api/badge/editnori.svg)](https://ghcommits.com/u/editnori)
+
 ## Clinical NLP with the source attached
 
 In the fictional fixture, `No fever` stays attached to characters 85–90 while cTAKES adds fictional candidate `DEMO-C002` and assertion `negated`. The row opens back to those exact words, so a reviewer can inspect what the extractor saw. It does not rewrite the note or establish that the patient has fever.
